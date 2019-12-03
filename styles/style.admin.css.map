@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACEE,AAAD,iBAAM,CAAC;EACN,QAAQ,EAAE,QAAQ;CAClB;;AAEA,AAAD,oBAAS,CAAC;EACT,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,GAAG;EACR,SAAS,EAAE,qBAAqB;CAChC;;AAIA,AAAD,WAAM,CAAC;EACN,QAAQ,EAAE,QAAQ;CAClB",
+    "sources": [
+        "style.admin.scss",
+        "_helpers.scss"
+    ],
+    "names": [],
+    "file": "style.admin.css"
+}

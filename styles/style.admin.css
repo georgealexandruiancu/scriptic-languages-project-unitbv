@@ -1,0 +1,16 @@
+.u-container__abs {
+  position: absolute;
+}
+
+.u-container__middle {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.u-pos__rel {
+  position: relative;
+}
+/*# sourceMappingURL=style.admin.css.map */

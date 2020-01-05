@@ -2,10 +2,10 @@
 
 # TEAM
 
-Iancu George-Alexandru
-Scurtu Dumitru Alexandru
-Benche Mihai
-Posadaru Alexandra Maria
+- Iancu George-Alexandru
+- Scurtu Dumitru Alexandru
+- Benche Mihai
+- Posadaru Alexandra Maria
 
 
 # Languages

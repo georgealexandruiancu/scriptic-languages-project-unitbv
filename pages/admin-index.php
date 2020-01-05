@@ -28,10 +28,14 @@
 	<head>
 
 		<?php include("../components/admin/head.php") ?>
+		<link rel="stylesheet" href="../styles/style.main.css" />
 
 </head>
 	<body>
-		<div class="container  u-pos__rel">
+	<div class="video-bg">
+		<video src="../assets/video-bg.mp4#t=20" autoplay muted loop></video>
+	</div>
+		<div class="container  u-pos__rel  color-positive__bg  u-padding-all  u-border__radius  u-margin-top">
 			<div class="row  u-pos__rel">
 				<div class="col-md-12  text-center  u-pos__rel">
 					<!-- start: page -->

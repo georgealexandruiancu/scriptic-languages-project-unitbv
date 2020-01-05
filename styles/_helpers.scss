@@ -1,3 +1,5 @@
+@import '_colors.scss';
+
 $inner-gutter: 40px;
 
 .u-margin {
@@ -96,6 +98,13 @@ $inner-gutter: 40px;
 	}
 }
 
+.u-border {
+	border: 1px solid $color-positive-text;
+
+	&__radius {
+		border-radius: $inner-gutter / 2;
+	}
+}
 
 .u-container {
 

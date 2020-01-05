@@ -98,6 +98,14 @@
   padding: 20px;
 }
 
+.u-border {
+  border: 1px solid white;
+}
+
+.u-border__radius {
+  border-radius: 20px;
+}
+
 .u-container__abs {
   position: absolute;
 }
@@ -195,6 +203,14 @@
 
 .color-danger__bg {
   background-color: #A4262C !important;
+}
+
+.color-positive {
+  color: white !important;
+}
+
+.color-positive__bg {
+  background-color: white !important;
 }
 
 body {

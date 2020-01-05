@@ -47,6 +47,7 @@
 			letter-spacing: 1px;
 			margin-top: 100px;
 			font-size: 2em;
+			text-align: center;
 		}
 
 		.overlay .menu {
@@ -85,16 +86,20 @@
 </head>
 <body>
 	<div class="video-bg">
-		<video src="assets/video-bg.mp4#t=20" autoplay muted></video>
+		<video src="assets/video-bg.mp4#t=20" autoplay muted loop></video>
 	</div>
 	<div class="overlay">
 		<div class="title">
 			Weather Map App
 		</div>
 		<div class="menu">
-			<button class="btn btn-primary">Login</button>
+			<a href="pages/user-index.php">
+				<button class="btn btn-primary">Login</button>
+			</a>
 			<p>- OR -</p>
-			<button class="btn btn-warning">Register</button>
+			<a href="pages/user-register.php">
+				<button class="btn btn-warning">Register</button>
+			</a>
 		</div>
 		<div class="menu-admin">
 			<a href="pages/admin-index.php">

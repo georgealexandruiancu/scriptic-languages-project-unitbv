@@ -42,4 +42,12 @@
 			background-color: $color-danger-text !important;
 		}
 	}
+
+	&-positive {
+		color: $color-positive-text !important;
+
+		&__bg {
+			background-color: $color-positive-text !important;
+		}
+	}
 }

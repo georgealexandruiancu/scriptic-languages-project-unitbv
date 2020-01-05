@@ -1,3 +1,5 @@
+$inner-gutter: 40px;
+
 .u-margin {
 	&-top {
 		margin-top: $inner-gutter;
@@ -112,5 +114,48 @@
 .u-pos {
 	&__rel {
 		position: relative;
+	}
+}
+
+.u-none-padding {
+	padding: 0;
+}
+
+.u-full {
+	width: 100%;
+	height: 880px;
+
+	&__width {
+		width: 100%;
+	}
+
+	&__height {
+		height: 100%;
+	}
+}
+
+.u-font-size {
+	&__xxl {
+		font-size: 2em !important;
+	}
+
+	&__xl {
+		font-size: 1.5em !important;
+	}
+
+	&__l {
+		font-size: 1.17em !important;
+	}
+
+	&__m {
+		font-size: 1em !important;
+	}
+
+	&__s {
+		font-size: .83em !important;
+	}
+
+	&_xs {
+		font-size: .67em !important;
 	}
 }

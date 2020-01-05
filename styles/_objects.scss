@@ -1,0 +1,45 @@
+@import '_colors.scss';
+
+.o-title {
+	font-size: 2em;
+	font-weight: 900;
+	letter-spacing: 1.2px;
+
+	&__text-danger {
+		color: $color-danger-text;
+	}
+
+	&__text-warning {
+		color: $color-warning-text;
+	}
+
+	&__text-good {
+		color: $color-good-text;
+	}
+}
+
+.color {
+	&-primary {
+		color: $color-primary-theme !important;
+
+		&__bg {
+			background-color: $color-primary-theme !important;
+		}
+	}
+
+	&-secondary {
+		color: $color-secondary-theme !important;
+
+		&__bg {
+			background-color: $color-secondary-bg !important;
+		}
+	}
+
+	&-danger {
+		color: $color-danger-text !important;
+
+		&__bg {
+			background-color: $color-danger-text !important;
+		}
+	}
+}

@@ -6,7 +6,7 @@
 	if(isset($_POST) & !empty($_POST) ){
 		$username = mysqli_real_escape_string($connection, $_POST['userEmail']);
 		$password = md5($_POST['userPassword']);
-		$sql = "SELECT * FROM `users` WHERE email='$username' AND password='$password'";
+		$sql = "SELECT * FROM `users` WHERE email='$username' AND password='$password' AND locked='0'";
 		$result = mysqli_query($connection, $sql);
 		$count = mysqli_num_rows($result);
 		$row = $result->fetch_assoc();

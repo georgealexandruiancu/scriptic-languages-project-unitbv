@@ -15,7 +15,7 @@
 			$_SESSION['connected'] = true;
 			$_SESSION['role'] = $row['role'];
 		}else{
-			$fmsg = "Invalid Username/Password";
+			$fmsg = "Invalid Username/Password please contact the administrator";
 		}
 	}
 	if(isset($_SESSION['connected']) == true && $_SESSION['role'] == 'user'){
